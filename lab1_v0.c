@@ -9,7 +9,7 @@ int printRightTriangle(int size, char charChoice);
 int printTriangle(int size, char charChoice);
 
 int main () {
-    int choice = 1;
+    int choice;
     int size;
     char charChoice;
     
@@ -30,7 +30,8 @@ int main () {
 
 int getChoice(void) {
     printf("getChoice\n");
-    return 0;
+    int choice = 2;
+    return choice;
 }
 
 int getSize(void){
